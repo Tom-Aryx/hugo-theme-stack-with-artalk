@@ -1,7 +1,6 @@
 {{- with .Site.Params.comments.artalk -}}
 <link href="{{ $.Site.Params.comments.artalk.host }}/dist/Artalk.css" rel="stylesheet">
 <script src="{{ $.Site.Params.comments.artalk.host }}/dist/Artalk.js"></script>
-<script src="https://unpkg.com/@artalk/plugin-katex/dist/artalk-plugin-katex.js"></script>
 <div id="Comments"></div>
 <script>
     const artalk = Artalk.init({
